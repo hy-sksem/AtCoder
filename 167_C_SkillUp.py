@@ -1,6 +1,5 @@
 # https://atcoder.jp/contests/abc167/tasks/abc167_c
 
-# WIP
 import numpy as np
 import itertools
 N, M, X = map(int, input().split())
