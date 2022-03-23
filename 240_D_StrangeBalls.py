@@ -15,4 +15,3 @@ for i in range(N):
         stack.pop()
         ans -= A[i]
     print(ans)
-
