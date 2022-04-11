@@ -18,25 +18,3 @@ for i in range(N):
         print("No")
         exit()
 print("Yes")
-# N = int(input())
-# s = [None] * N
-# t = [None] * N
-# name = []
-# dup = set()
-# for i in range(N):
-#     s[i], t[i] = input().split()
-
-# for i in range(N):
-#     if s[i] not in name:
-#         name.append(s[i])
-#     else:
-#         dup.add(s[i])
-#     if t[i] not in name:
-#         name.append(t[i])
-#     else:
-#         dup.add(t[i])
-# for i in range(N):
-#     if s[i] in dup and t[i] in dup:
-#         print("No")
-#         exit()
-# print("Yes")
