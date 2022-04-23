@@ -1,10 +1,15 @@
-# 概要
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## 概要
+
 AtCoderの問題を解く
 
-▼以下は自分用メモ
+▼以下はメモ
+
 ## 動的計画法
 
 1. 1次元（フィボナッチ数列）
+
     ```python
     N = int(input())
 
@@ -20,6 +25,7 @@ AtCoderの問題を解く
     ```
 
 1. 2次元（道順 左上 -> 右下）
+
     ```python
     N = int(input())
 
