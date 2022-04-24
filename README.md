@@ -7,6 +7,15 @@ AtCoderの問題を解く
 ## [動的計画法](Library/DP/README.md)
 
 - [typical90 050](typical90/050_StairJump.py)
+
 ## [UnionFind木](Library/UnionFind/README.md)
 
 - [typical90 012](typical90/012_RedPainting.py)
+
+## いもす法
+
+- [typical90 028](typical90/028_ClutteredPaper.py)
+
+## 二部グラフ
+
+- [typical90 026](typical90/026_IndependentSetOnATree.py)
