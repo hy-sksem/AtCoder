@@ -4,8 +4,6 @@
 
 AtCoderの問題を解く
 
-▼以下はメモ
-
 ## [動的計画法](Library/DP/README.md)
 
 - [typical90 050](typical90/050_StairJump.py)
