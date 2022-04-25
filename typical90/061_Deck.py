@@ -9,4 +9,4 @@ for i in range(Q):
     if t == 2:
         dq.append(x)
     if t == 3:
-        print(dq[x-1])
+        print(dq[x - 1])
