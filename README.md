@@ -8,10 +8,6 @@ AtCoderの問題を解く
 
 - [typical90 050](typical90/050_StairJump.py)
 
-## [UnionFind木](Library/UnionFind/README.md)
-
-- [typical90 012](typical90/012_RedPainting.py)
-
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
@@ -19,3 +15,15 @@ AtCoderの問題を解く
 ## 二部グラフ
 
 - [typical90 026](typical90/026_IndependentSetOnATree.py)
+
+## 木
+
+### [UnionFind木](Library/UnionFind/README.md)
+
+- [typical90 012](typical90/012_RedPainting.py)
+
+### セグメント木
+
+### [遅延評価セグメント木(lazy segment tree)](Library/lazy_segment_tree/README.md)
+
+- [typical90 029](typical90/029_LongBricks.py)
