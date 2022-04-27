@@ -27,3 +27,9 @@ AtCoderの問題を解く
 ### [遅延評価セグメント木(lazy segment tree)](Library/lazy_segment_tree/README.md)
 
 - [typical90 029](typical90/029_LongBricks.py)
+
+## その他
+
+### 基数変換
+
+- [typical90 067](typical90/067_Base8to9.py)
