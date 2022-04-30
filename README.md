@@ -12,9 +12,15 @@ AtCoderの問題を解く
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
 
-## 二部グラフ
+## グラフ
+
+### 二部グラフ
 
 - [typical90 026](typical90/026_IndependentSetOnATree.py)
+
+### 隣接リスト
+
+- [typical90 078](typical90/078_EasyGraphProblem.py)
 
 ## 木
 
