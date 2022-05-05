@@ -5,7 +5,7 @@ x = list()
 
 for i in range(1, 200):
     for j in range(1, 200):
-        t = 4*i*j + 3*i + 3*j
+        t = 4 * i * j + 3 * i + 3 * j
         if t <= 1000:
             x.append(t)
 x = set(x)
@@ -14,4 +14,4 @@ for s in S:
     if s in x:
         ans += 1
 
-print(N-ans)
+print(N - ans)
