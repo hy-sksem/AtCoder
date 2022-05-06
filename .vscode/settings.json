@@ -5,7 +5,9 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length",
-        "88"
+        "88",
+        "--ignore",
+        "E741"
     ],
     "python.defaultInterpreterPath": "api/.venv/bin/python3",
 }
