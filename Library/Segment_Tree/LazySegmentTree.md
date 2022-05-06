@@ -296,9 +296,9 @@ def ceil_pow2(n: int) -> int:
 class LazySegmentTree:
     def __init__(
         self,
-        op: Callable[[Any, Any]],
+        op: Callable[[Any, Any], Any],
         e: Any,
-        mapping: Callable[[Any, Any]],
+        mapping: Callable[[Any, Any], Any],
         composition: Callable[[Any, Any], Any],
         id_: Any,
         v: Union[int, List[Any]],
@@ -315,7 +315,7 @@ class LazySegmentTree:
         self.n = len(v)
         self.log = ceil_pow2(self.n)
         self.size = 1 << self.log
-        self.data = [e] * (2 * self.size)
+        self.data = [self.e] * (2 * self.size)
         self.lazy = [self.id] * self.size
         for i in range(self.n):
             self.data[self.size + i] = v[i]
