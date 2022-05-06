@@ -30,7 +30,7 @@ AtCoderの問題を解く
 
 ### セグメント木
 
-### [遅延評価セグメント木(lazy segment tree)](Library/lazy_segment_tree/README.md)
+### [遅延評価セグメント木(lazy segment tree)](Library/Segment_Tree/LazySegmentTree.md)
 
 - [typical90 029](typical90/029_LongBricks.py)
 
