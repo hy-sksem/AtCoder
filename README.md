@@ -22,7 +22,7 @@
 
 ## 木
 
-### [UnionFind木](Library/UnionFind/README.md)
+### [UnionFind 木](Library/UnionFind/README.md)
 
 - [typical90 012](typical90/012_RedPainting.py)
 
@@ -31,6 +31,10 @@
 ### [遅延評価セグメント木(lazy segment tree)](Library/Segment_Tree/LazySegmentTree.md)
 
 - [typical90 029](typical90/029_LongBricks.py)
+
+## 整数系
+
+### [素数判定、約数全列挙 etc.](Library/Math/README.md)
 
 ## その他
 
