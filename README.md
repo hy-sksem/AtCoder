@@ -41,3 +41,7 @@
 ### 基数変換
 
 - [typical90 067](typical90/067_Base8to9.py)
+
+### 尺取り法
+
+- [typical90 034](typical90/034_ThereAreFewTypesOfElements.py)
