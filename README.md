@@ -25,6 +25,7 @@
 ### [UnionFind 木](Library/UnionFind/README.md)
 
 - [typical90 012](typical90/012_RedPainting.py)
+- [ABC 231 D](ABC/abc231/d/main.py)
 
 ### セグメント木
 

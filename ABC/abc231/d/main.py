@@ -1,10 +1,3 @@
-# UnionFind木
-
-## UnionFind木とは
-
-グループ分けを効率的に管理するデータ構造。
-
-```python
 class UnionFind:
     """Union Find木クラス
     Attributes:
@@ -46,7 +39,7 @@ class UnionFind:
         """
         x = self.find(x)
         y = self.find(y)
-        if x == y: # すでに同じ親
+        if x == y:  # すでに同じ親
             return
         # union by size
         if self.parents[x] > self.parents[y]:
@@ -113,4 +106,23 @@ class UnionFind:
         """
         return {r: self.members(r) for r in self.roots()}
 
-```
+
+N, M = map(int, input().split())
+uf = UnionFind(N)
+cnts = [0] * N
+for i in range(M):
+    a, b = map(int, input().split())
+    a -= 1
+    b -= 1
+    if uf.find(a) == uf.find(b):
+        print("No")
+        exit()
+    uf.union(a, b)
+    cnts[a] += 1
+    cnts[b] += 1
+
+for cnt in cnts:
+    if cnt >= 3:
+        print("No")
+        exit()
+print("Yes")
