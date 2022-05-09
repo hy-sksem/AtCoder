@@ -17,7 +17,7 @@
 2. エラトステネスの篩
 
    ```python
-   def Eratosthenes(N) -> list(bool):
+   def Eratosthenes(N:int) -> list[bool]:
        isprime = [True] * (N+1)
        isprime[0], isprime[1] = False, False
 
@@ -32,6 +32,24 @@
 
        return isprime
    ```
+
+   ```python
+   def Eratosthenes(N:int) -> list[int]:
+    isprime = [True] * (N + 1)
+    isprime[0], isprime[1] = False, False
+    primes = []
+    for p in range(2, N + 1):
+        if not isprime[p]:
+            continue
+        primes.append(p)
+
+        q = p * 2
+        while q <= N:
+            isprime[q] = False
+            q += p
+
+    return primes
+    ```
 
 3. 約数全列挙
 
