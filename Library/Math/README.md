@@ -16,6 +16,8 @@
 
 2. エラトステネスの篩
 
+計算量: O(NloglogN)
+
    ```python
    def Eratosthenes(N:int) -> list[bool]:
        isprime = [True] * (N+1)
