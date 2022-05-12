@@ -6,6 +6,8 @@
 
 - [typical90 050](typical90/050_StairJump.py)
 
+- 1次元DP: [typical90 042](typical90/042_MultipleOf9.py)
+
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
@@ -36,6 +38,11 @@
 ## 整数系
 
 ### [素数判定、約数全列挙 etc.](Library/Math/README.md)
+
+   |項目|link|
+   | --- | --- |
+   |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
+
 
 ## その他
 
