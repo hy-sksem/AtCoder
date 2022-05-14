@@ -22,6 +22,10 @@
 
 - [typical90 078](typical90/078_EasyGraphProblem.py)
 
+### 01-BFS
+
+- [typical90 043](typical90/043_MazeChallengeWithLackOfSleep.py)
+
 ## 木
 
 ### [UnionFind 木](Library/UnionFind/README.md)
@@ -42,7 +46,6 @@
    |項目|link|
    | --- | --- |
    |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
-
 
 ## その他
 
