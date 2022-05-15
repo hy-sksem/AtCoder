@@ -8,6 +8,8 @@
 
 - 1次元DP: [typical90 042](typical90/042_MultipleOf9.py)
 
+- 循環してるDP [ABC 251 e](ABC/abc251/e/main.py)
+
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
