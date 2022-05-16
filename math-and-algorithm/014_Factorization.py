@@ -1,7 +1,7 @@
 def factorization(n):
     l = []
     temp = n
-    for i in range(2, int(-(-n**0.5//1))+1):
+    for i in range(2, int(-(-(n**0.5) // 1)) + 1):
         while temp % i == 0:
             temp //= i
             l.append(i)
@@ -9,6 +9,6 @@ def factorization(n):
         l.append(temp)
     return l
 
+
 N = int(input())
 print(*factorization(N), " ")
-

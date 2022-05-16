@@ -9,4 +9,4 @@ for a in range(1, N + 1):
             if abs(b - c) <= K - 1:
                 yojisho += 1
 
-print(N ** 3 - yojisho)
+print(N**3 - yojisho)

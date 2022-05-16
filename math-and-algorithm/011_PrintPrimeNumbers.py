@@ -3,7 +3,8 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
- 
+
+
 N = int(input())
-ans = [i for i in range(2, N+1) if is_prime(i)]
+ans = [i for i in range(2, N + 1) if is_prime(i)]
 print(*ans, " ")

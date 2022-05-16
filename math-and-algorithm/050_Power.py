@@ -7,6 +7,7 @@ def modpow(x, y, m):
         p = (p * p) % m
     return ans
 
+
 MOD = 10**9 + 7
 
 a, b = map(int, input().split())

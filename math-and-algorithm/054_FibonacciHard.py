@@ -2,8 +2,9 @@ from copy import deepcopy
 
 MOD = 10**9
 
+
 def multiply(A, B):
-    C = [[0,0],[0,0]]
+    C = [[0, 0], [0, 0]]
     for i in range(2):
         for j in range(2):
             for k in range(2):
@@ -11,9 +12,10 @@ def multiply(A, B):
                 C[i][j] %= MOD
     return C
 
+
 def power(A, n):
     P = deepcopy(A)
-    Q = [[0,0],[0,0]]
+    Q = [[0, 0], [0, 0]]
     flag = False
     for i in range(60):
         if n & (1 << i):
@@ -25,9 +27,10 @@ def power(A, n):
         P = deepcopy(multiply(P, P))
     return Q
 
+
 N = int(input())
 A = [[1, 1], [1, 0]]
-B = power(A, N-1)
+B = power(A, N - 1)
 
 ans = (B[1][0] + B[1][1]) % MOD
 print(ans)

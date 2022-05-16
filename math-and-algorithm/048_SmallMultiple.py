@@ -9,7 +9,7 @@ for i in range(K):
             continue
         G[i].append(((i * 10 + j) % K, j))
 
-dist = [10 ** 10] * K
+dist = [10**10] * K
 used = [False] * K
 Q = list()
 heapq.heappush(Q, (0, 0))
