@@ -22,11 +22,11 @@ N, M = map(int, input().split())
 path = [[] for i in range(N)]
 for i in range(M):
     a, b, c = map(int, input().split())
-    path[a-1] += [[b-1, c]]
-    path[b-1] += [[a-1, c]]
+    path[a - 1] += [[b - 1, c]]
+    path[b - 1] += [[a - 1, c]]
 
 d1 = dijkstra(path, 0)
-d2 = dijkstra(path, N-1)
+d2 = dijkstra(path, N - 1)
 
 for i in range(N):
     print(d1[i] + d2[i])
