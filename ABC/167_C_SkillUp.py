@@ -2,12 +2,13 @@
 
 import numpy as np
 import itertools
+
 N, M, X = map(int, input().split())
 CA = [list(map(int, input().split())) for _ in range(N)]
 
-ans = 10 ** 5 * 12
+ans = 10**5 * 12
 flag = False
-for ite in itertools.product([0,1], repeat=N):
+for ite in itertools.product([0, 1], repeat=N):
     ca = []
     for i, j in enumerate(ite):
         if j == 1:

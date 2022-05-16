@@ -6,8 +6,8 @@ AB = [list(map(int, input().split())) for _ in range(M)]
 
 ma = [0] * N
 for i, m in enumerate(AB):
-    a, b = m[0]-1, m[1]-1
-    ma[a] = max(ma[a], H[b]) 
+    a, b = m[0] - 1, m[1] - 1
+    ma[a] = max(ma[a], H[b])
     ma[b] = max(ma[b], H[a])
 
 ans = 0

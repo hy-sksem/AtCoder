@@ -1,5 +1,6 @@
 # https://atcoder.jp/contests/abc180/tasks/abc180_b
 import math
+
 n = int(input())
 x = list(map(int, input().split()))
 x = sorted(map(abs, x))

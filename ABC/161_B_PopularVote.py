@@ -4,4 +4,4 @@ N, M = map(int, input().split())
 A = list(map(int, input().split()))
 
 a = sorted(A, reverse=True)
-print("Yes") if a[M-1] * 4*M >= sum(A) else print("No")
+print("Yes") if a[M - 1] * 4 * M >= sum(A) else print("No")

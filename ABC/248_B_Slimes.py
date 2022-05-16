@@ -6,4 +6,3 @@ while A < B:
     cnt += 1
 
 print(cnt)
-

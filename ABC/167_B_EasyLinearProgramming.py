@@ -14,4 +14,3 @@ else:
     else:
         ans += -1 * (K - A - B)
         print(ans)
-

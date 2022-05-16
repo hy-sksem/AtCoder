@@ -3,4 +3,4 @@
 a, b = map(int, input().split())
 c, d = map(int, input().split())
 
-print(max(max((b-d, b-c)), max((a-d, a-c))))
+print(max(max((b - d, b - c)), max((a - d, a - c))))

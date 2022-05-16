@@ -3,4 +3,4 @@
 S = input()
 weather = ["Sunny", "Cloudy", "Rainy"]
 
-print(weather[weather.index(S)+1] if weather.index(S) != 2 else "Sunny")
+print(weather[weather.index(S) + 1] if weather.index(S) != 2 else "Sunny")

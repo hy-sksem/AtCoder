@@ -2,4 +2,4 @@
 
 sx, sy, gx, gy = map(int, input().split())
 
-print(sx + (gx - sx) * (sy / (gy + sy))) 
+print(sx + (gx - sx) * (sy / (gy + sy)))

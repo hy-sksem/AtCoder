@@ -15,4 +15,3 @@ elif x - k * d < 0:
         exit()
     else:
         print(x - (x // d) * d)
-

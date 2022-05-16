@@ -8,11 +8,11 @@ for i in range(K):
     f += P[i]
 ans = f
 for j in range(K, N):
-    d = P[j] - P[j-K]
+    d = P[j] - P[j - K]
     if d > 0:
         f += d
         if f > ans:
             ans = f
     else:
         f += d
-print((ans+K)/2)
+print((ans + K) / 2)

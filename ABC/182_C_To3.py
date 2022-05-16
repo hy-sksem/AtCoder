@@ -33,4 +33,3 @@ elif sum(nums) % 3 == 2 and len(nums) != 1:
 else:
     print(-1)
     exit()
-

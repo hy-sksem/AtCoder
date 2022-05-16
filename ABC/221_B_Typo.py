@@ -2,7 +2,7 @@ S = input()
 T = input()
 
 dif_i = []
-dif_l = [[],[]]
+dif_l = [[], []]
 for i, (s, t) in enumerate(zip(S, T)):
     if s == t:
         continue

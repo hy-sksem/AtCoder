@@ -9,4 +9,3 @@ for i in xy:
         xy_d.append(d)
 
 print(len(xy_d))
-

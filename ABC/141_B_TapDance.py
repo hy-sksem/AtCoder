@@ -3,7 +3,7 @@
 S = input()
 
 for i, s in enumerate(S):
-    if (i+1) % 2 == 0:
+    if (i + 1) % 2 == 0:
         if s == "R":
             print("No")
             exit()

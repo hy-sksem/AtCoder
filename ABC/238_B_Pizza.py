@@ -12,6 +12,6 @@ for a in A:
 D = [i for i, x in enumerate(D) if x]
 D.append(360)
 ans = 0
-for i in range(len(D)-1):
-    ans = D[i+1] - D[i] if D[i+1] - D[i] >= ans else ans
-print(ans) 
+for i in range(len(D) - 1):
+    ans = D[i + 1] - D[i] if D[i + 1] - D[i] >= ans else ans
+print(ans)

@@ -5,7 +5,7 @@ A = list(map(int, input().split()))
 
 m = defaultdict(list)
 for i in range(N):
-  m[A[i]].append(i + 1)
+    m[A[i]].append(i + 1)
 
 for j in range(Q):
     x, k = map(int, input().split())
@@ -13,4 +13,3 @@ for j in range(Q):
         print(m[x][k - 1])
     else:
         print(-1)
-

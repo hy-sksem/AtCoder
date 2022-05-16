@@ -2,4 +2,4 @@
 
 S = input()
 T = input()
-print("Yes") if S == T[0:len(S)] and len(T) - 1 == len(S) else print("No")
+print("Yes") if S == T[0 : len(S)] and len(T) - 1 == len(S) else print("No")

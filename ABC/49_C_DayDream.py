@@ -1,4 +1,5 @@
 import re
+
 s = input()
 s = re.sub("eraser", "", s)
 s = re.sub("erase", "", s)

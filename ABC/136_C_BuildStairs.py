@@ -5,8 +5,8 @@ H = list(map(int, input().split()))
 
 f = H[0]
 for h in H:
-    if f <= h-1:
-        f = h-1
+    if f <= h - 1:
+        f = h - 1
     elif f <= h:
         f = h
     else:

@@ -10,4 +10,3 @@ for i, j in enumerate(a, start=1):
         print("No")
         exit()
 print("Yes")
-

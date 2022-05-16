@@ -2,4 +2,4 @@
 
 X = int(input())
 
-print(100*(X//100+1)-X)
+print(100 * (X // 100 + 1) - X)

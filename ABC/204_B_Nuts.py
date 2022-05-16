@@ -5,5 +5,5 @@ for i in a:
     if i <= 10:
         continue
     else:
-        cnt += i-10
+        cnt += i - 10
 print(cnt)

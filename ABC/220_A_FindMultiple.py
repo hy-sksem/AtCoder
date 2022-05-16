@@ -5,6 +5,6 @@ for i in range(1, 1000):
     if a <= n and n <= b:
         print(n)
         exit()
-    else: 
+    else:
         continue
 print(-1)

@@ -1,6 +1,7 @@
 # https://atcoder.jp/contests/abc160/tasks/abc160_c
 
 import numpy as np
+
 K, N = map(int, input().split())
 A = list(map(int, input().split()))
 
