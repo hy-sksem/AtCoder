@@ -58,3 +58,7 @@
 ### 尺取り法
 
 - [typical90 034](typical90/034_ThereAreFewTypesOfElements.py)
+
+### 区間の階差
+
+- [typical90 064](typical90/064_Uplift.py)
