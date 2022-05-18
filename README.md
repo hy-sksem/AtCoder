@@ -48,6 +48,7 @@
    |項目|link|
    | --- | --- |
    |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
+   |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
 
 ## その他
 
