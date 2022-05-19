@@ -43,12 +43,13 @@
 
 ## 整数系
 
-### [素数判定、約数全列挙 etc.](Library/Math/README.md)
+### [素数判定、約数全列挙、素因数分解 etc.](Library/Math/README.md)
 
    |項目|link|
    | --- | --- |
    |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
    |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
+   |素因数分解|[typical90 075s](typical90/075_MagicForBalls.py)|
 
 ## その他
 
