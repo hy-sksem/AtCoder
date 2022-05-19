@@ -3,6 +3,7 @@
 1. 素数判定
 
    ```python
+   from typing import bool
    def isprime(N) -> bool:
        if N < 2:
            return False
@@ -14,7 +15,7 @@
        return True
    ```
 
-2. エラトステネスの篩
+1. エラトステネスの篩
 
     計算量: O(NloglogN)
 
@@ -36,8 +37,8 @@
    ```
 
    ```python
-
-   def Eratosthenes(N:int) -> list[int]:
+    from typing import List
+   def Eratosthenes(N:int) -> List[int]:
     isprime = [True] * (N + 1)
     isprime[0], isprime[1] = False, False
     primes = []
@@ -54,11 +55,12 @@
     return primes
     ```
 
-3. 約数全列挙
+1. 約数全列挙
 
    ```python
+   from typing import List
    # N の約数をすべて求める関数
-   def calc_divisors(N) -> list(int):
+   def calc_divisors(N) -> List[int]:
        res = []
 
        for i in range(1, N + 1):
@@ -77,7 +79,30 @@
        return res
    ```
 
-4. 倍数の性質
+1. 素因数分解
+
+   ```python
+    from typing import List
+
+
+    def prime_factorization(N) -> List[int]:
+        res = []
+        while N % 2 == 0:
+            res.append(2)
+            N //= 2
+
+        for i in range(3, int(N**0.5) + 1, 2):
+            while N % i == 0:
+                res.append(i)
+                N //= i
+
+        if N > 2:
+            res.append(N)
+
+        return res
+   ```
+
+1. 倍数の性質
 
     ```txt
     - 2の倍数: 1の位が2の倍数
