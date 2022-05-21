@@ -37,6 +37,8 @@
 
 ### セグメント木
 
+### [セグメント木](Library/Segment_Tree/SegmentTree.md)
+
 ### [遅延評価セグメント木(lazy segment tree)](Library/Segment_Tree/LazySegmentTree.md)
 
 - [typical90 029](typical90/029_LongBricks.py)
@@ -60,6 +62,7 @@
 ### 尺取り法
 
 - [typical90 034](typical90/034_ThereAreFewTypesOfElements.py)
+- [typical90 076](typical90/076_CakeCut.py)
 
 ### 区間の階差
 
