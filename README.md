@@ -67,3 +67,7 @@
 ### 区間の階差
 
 - [typical90 064](typical90/064_Uplift.py)
+
+### 組み合わせ
+
+- [ABC 252 D](ABC/abc252/d/main.py)
