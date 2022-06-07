@@ -59,6 +59,10 @@
    |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
    |素因数分解|[typical90 075](typical90/075_MagicForBalls.py)|
 
+### マンハッタン距離
+
+- [マンハッタン距離](typical90/070_PlantPlanning.py)
+
 ## その他
 
 ### 基数変換
