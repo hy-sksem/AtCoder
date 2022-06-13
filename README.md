@@ -62,6 +62,7 @@
    |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
    |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
    |素因数分解|[typical90 075](typical90/075_MagicForBalls.py)|
+   |累積和|[ABC 255 D](ABC/abc255/d/main.py)|
 
 ### マンハッタン距離
 
