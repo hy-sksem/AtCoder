@@ -22,7 +22,9 @@ class SortedSet(Generic[T]):
         ]
 
     def __init__(self, a: Iterable[T] = []) -> None:
-        """Make a new SortedSet from iterable. / O(N) if sorted and unique / O(N log N)"""
+        """Make a new SortedSet from iterable.
+        O(N) if sorted and unique / O(N log N)
+        """
         a = list(a)
         if not all(a[i] < a[i + 1] for i in range(len(a) - 1)):
             a = sorted(set(a))
