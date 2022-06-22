@@ -4,7 +4,7 @@
 
 ## 全探索
 
-### bit全探索
+### bit 全探索
 
 - [typical90 063](typical90/063_MonochromaticSubgrid.py)
 
@@ -12,9 +12,9 @@
 
 - [typical90 050](typical90/050_StairJump.py)
 
-- 1次元DP: [typical90 042](typical90/042_MultipleOf9.py)
+- 1 次元 DP: [typical90 042](typical90/042_MultipleOf9.py)
 
-- 循環してるDP [ABC 251 e](ABC/abc251/e/main.py)
+- 循環してる DP [ABC 251 e](ABC/abc251/e/main.py)
 
 ## いもす法
 
@@ -33,6 +33,10 @@
 ### 01-BFS
 
 - [typical90 043](typical90/043_MazeChallengeWithLackOfSleep.py)
+
+### BFS
+
+- [ABC 226 C](ABC/abc226/c/main.py)
 
 ## 木
 
@@ -57,12 +61,12 @@
 
 ### [素数判定、約数全列挙、素因数分解 etc.](Library/Math/README.md)
 
-   |項目|link|
-   | --- | --- |
-   |9の倍数の性質|[typical90 042](typical90/042_MultipleOf9.py)|
-   |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
-   |素因数分解|[typical90 075](typical90/075_MagicForBalls.py)|
-   |累積和|[ABC 255 D](ABC/abc255/d/main.py)|
+| 項目           | link                                              |
+| -------------- | ------------------------------------------------- |
+| 9 の倍数の性質 | [typical90 042](typical90/042_MultipleOf9.py)     |
+| 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py) |
+| 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)   |
+| 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                 |
 
 ### マンハッタン距離
 
