@@ -19,6 +19,7 @@
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
+- 一次元: [ABC 256 D](ABC/abc256/d/main.py)
 
 ## グラフ
 
@@ -49,9 +50,9 @@
 
 - [typical90 029](typical90/029_LongBricks.py)
 
-### [平衡二分探索木](Library/SortedSet/SortedSet.py)
+### [SortedSet](Library/SortedSet/SortedSet.py)
 
-### [平衡二分探索木（多重集合版）](Library/SortedSet/SortedMulitiset.py)
+### [SortedMultiSet（多重集合版）](Library/SortedSet/SortedMulitiset.py)
 
 ## 整数系
 
@@ -63,6 +64,7 @@
    |繰り返し二乗法|[typical90 069](typical90/069_ColorfulBlocks2.py)|
    |素因数分解|[typical90 075](typical90/075_MagicForBalls.py)|
    |累積和|[ABC 255 D](ABC/abc255/d/main.py)|
+   |約数全列挙|[typical90 085](typical90/085_Multiplication085.py)|
 
 ### マンハッタン距離
 
