@@ -39,6 +39,11 @@
 
 - [ABC 226 C](ABC/abc226/c/main.py)
 
+### [強連結成分分解(SCC)](Library/Graph/README.md)
+
+- [ACLPC G](ACLPC/G-SCC.py)
+- [typical90 021](typical90/021_ComeBackInOnePiece.py)
+
 ## 木
 
 ### [UnionFind 木](Library/UnionFind/README.md)
@@ -68,7 +73,7 @@
    | 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py) |
    | 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)   |
    | 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                 |
-   |約数全列挙      | [typical90 085](typical90/085_Multiplication085.py)|
+   | 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py)|
 
 ### マンハッタン距離
 
