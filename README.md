@@ -76,7 +76,7 @@
 | 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)     |
 | 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
 | 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py) |
-| 素因数列挙     | [typical90 085](typical90/030_KFactors.py)          |
+| 素因数列挙     | [typical90 030](typical90/030_KFactors.py)          |
 
 ### マンハッタン距離
 
