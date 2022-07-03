@@ -51,11 +51,13 @@
 - [typical90 012](typical90/012_RedPainting.py)
 - [ABC 231 D](ABC/abc231/d/main.py)
 
-### セグメント木
+### [セグメント木](Library/SegmentTree/README.md)
 
-### [セグメント木](Library/Segment_Tree/SegmentTree.md)
+#### [セグメント木](Library/SegmentTree/SegmentTree.py)
 
-### [遅延評価セグメント木(lazy segment tree)](Library/Segment_Tree/LazySegmentTree.md)
+- [ACLPC J](ACLPC/J-SegmentTree.py)
+
+#### [遅延評価セグメント木(lazy segment tree)](Library/SegmentTree/LazySegmentTree.py)
 
 - [typical90 029](typical90/029_LongBricks.py)
 
@@ -67,19 +69,19 @@
 
 ### [素数判定、約数全列挙、素因数分解 etc.](Library/Math/README.md)
 
-   | 項目           | link                                              |
-   | -------------- | ------------------------------------------------- |
-   | 9 の倍数の性質 | [typical90 042](typical90/042_MultipleOf9.py)     |
-   | 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py) |
-   | 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)   |
-   | 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                 |
-   | 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py)|
-   | 素因数列挙     | [typical90 085](typical90/030_KFactors.py)        |
+| 項目           | link                                                |
+| -------------- | --------------------------------------------------- |
+| 9 の倍数の性質 | [typical90 042](typical90/042_MultipleOf9.py)       |
+| 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py)   |
+| 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)     |
+| 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
+| 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py) |
+| 素因数列挙     | [typical90 085](typical90/030_KFactors.py)          |
 
 ### マンハッタン距離
 
 - [マンハッタン距離](typical90/070_PlantPlanning.py)
-- [マンハッタン距離(45度回転)](typical90/036_ManhattanDistance.py)
+- [マンハッタン距離(45 度回転)](typical90/036_ManhattanDistance.py)
 
 ## その他
 
