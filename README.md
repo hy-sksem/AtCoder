@@ -55,7 +55,8 @@
 
 #### [セグメント木](Library/SegmentTree/SegmentTree.py)
 
-- [ACLPC J](ACLPC/J-SegmentTree.py)
+- op=max:[ACLPC J](ACLPC/J-SegmentTree.py)
+- op=gcd:[ABC 125 C](ABC/abc125/c/main.py)
 
 #### [遅延評価セグメント木(lazy segment tree)](Library/SegmentTree/LazySegmentTree.py)
 
