@@ -20,7 +20,8 @@
     計算量: O(NloglogN)
 
    ```python
-   def Eratosthenes(N:int) -> list[bool]:
+   from typing import List
+   def Eratosthenes(N:int) -> List[bool]:
        isprime = [True] * (N+1)
        isprime[0], isprime[1] = False, False
 
