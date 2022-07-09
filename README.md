@@ -55,8 +55,9 @@
 
 #### [セグメント木](Library/SegmentTree/SegmentTree.py)
 
-- op=max:[ACLPC J](ACLPC/J-SegmentTree.py)
-- op=gcd:[ABC 125 C](ABC/abc125/c/main.py)
+- op=max: [ACLPC J](ACLPC/J-SegmentTree.py)
+- op=gcd: [ABC 125 C](ABC/abc125/c/main.py)
+- セグメント木*DP: [typical90 037](typical90/037_DontLeaveTheSpice.py)
 
 #### [遅延評価セグメント木(lazy segment tree)](Library/SegmentTree/LazySegmentTree.py)
 
