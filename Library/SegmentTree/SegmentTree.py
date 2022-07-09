@@ -113,3 +113,11 @@ class SegTree:
 
     def _update(self, k: int) -> None:
         self._df[k] = self._op(self._df[2 * k], self._df[2 * k + 1])
+
+    def debug(self) -> List[any]:
+        """
+        デバッグ用
+        returns:
+            葉を出力
+        """
+        return self._df[self._size :]
