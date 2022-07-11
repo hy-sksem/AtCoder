@@ -104,3 +104,7 @@
 ### 組み合わせ
 
 - [ABC 252 D](ABC/abc252/d/main.py)
+
+### 半分全列挙
+
+- [typical90 051](typical90/051_TypicalShop.py)
