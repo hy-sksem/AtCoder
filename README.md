@@ -13,8 +13,8 @@
 - [typical90 050](typical90/050_StairJump.py)
 
 - 1 次元 DP: [typical90 042](typical90/042_MultipleOf9.py)
-
-- 循環してる DP [ABC 251 e](ABC/abc251/e/main.py)
+- 循環してる DP: [ABC 251 e](ABC/abc251/e/main.py)
+- DP 復元: [typical90 056](typical90/056_LuckyBag.py)
 
 ## いもす法
 
