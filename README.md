@@ -108,3 +108,7 @@
 ### 半分全列挙
 
 - [typical90 051](typical90/051_TypicalShop.py)
+
+### 最長増加部分列
+
+- [typical90 060](typical90/060_Chimera.py)
