@@ -112,3 +112,7 @@
 ### 最長増加部分列
 
 - [typical90 060](typical90/060_Chimera.py)
+
+### 期待値の線型性
+
+- [typical90 066](typical90/066_VariousArrays.py)
