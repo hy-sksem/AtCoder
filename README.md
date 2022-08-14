@@ -4,9 +4,20 @@
 
 ## 全探索
 
+### 全列挙
+
+- [AOJ/ITP1_7_B.py](AOJ/ITP1_7_B.py)
+- 約数全列挙：[ABC 106 B](ABC/abc106/b/main.py)
+- [ABC 122 B](ABC/abc122/b/main.py)
+
 ### bit 全探索
 
 - [typical90 063](typical90/063_MonochromaticSubgrid.py)
+- [typical90 086](typical90/086_SnukesFavoriteArrays.py)
+
+### バックトラック
+
+- [typical90 072](typical90/072_LoopRailwayPlan.py)
 
 ## [動的計画法](Library/DP/README.md)
 
@@ -15,6 +26,7 @@
 - 1 次元 DP: [typical90 042](typical90/042_MultipleOf9.py)
 - 循環してる DP: [ABC 251 e](ABC/abc251/e/main.py)
 - DP 復元: [typical90 056](typical90/056_LuckyBag.py)
+- 木DP: [typical90 073](typical90/073_WeNeedBothAnB.py)
 
 ## いもす法
 
@@ -48,9 +60,14 @@
 
 ### [UnionFind 木](Library/UnionFind/README.md)
 
+#### [UnionFind 木](Library/UnionFind/UnionFind.py)
+
 - [typical90 012](typical90/012_RedPainting.py)
 - [ABC 231 D](ABC/abc231/d/main.py)
 - [ABC 259 D](ABC/abc259/d/main.py)
+- [ABC 264 E](ABC/abc264/e/main.py)
+
+#### WeightedUnionFind
 
 ### [セグメント木](Library/SegmentTree/README.md)
 
@@ -66,6 +83,9 @@
 
 ### [SortedSet](Library/SortedSet/SortedSet.py)
 
+- [ABC 253 C](ABC/abc253/c/main.py)
+- [ABC 260 D](ABC/abc260/d/main_stdset.py)
+
 ### [SortedMultiSet（多重集合版）](Library/SortedSet/SortedMulitiset.py)
 
 ## 整数系
@@ -78,7 +98,9 @@
 | 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py)   |
 | 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)     |
 | 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
+| 二次元累積和   | [typical90 081](typical90/081_FriendlyGroup.py)     |
 | 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py) |
+| 約数全列挙     | [ABC/abc106/b/main.py](ABC/abc106/b/main.py)        |
 | 素因数列挙     | [typical90 030](typical90/030_KFactors.py)          |
 
 ### マンハッタン距離
@@ -116,3 +138,5 @@
 ### 期待値の線型性
 
 - [typical90 066](typical90/066_VariousArrays.py)
+
+### BIT
