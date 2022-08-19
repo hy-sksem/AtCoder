@@ -26,7 +26,7 @@
 - 1 次元 DP: [typical90 042](typical90/042_MultipleOf9.py)
 - 循環してる DP: [ABC 251 e](ABC/abc251/e/main.py)
 - DP 復元: [typical90 056](typical90/056_LuckyBag.py)
-- 木DP: [typical90 073](typical90/073_WeNeedBothAnB.py)
+- 木 DP: [typical90 073](typical90/073_WeNeedBothAnB.py)
 
 ## いもす法
 
@@ -75,7 +75,7 @@
 
 - op=max: [ACLPC J](ACLPC/J-SegmentTree.py)
 - op=gcd: [ABC 125 C](ABC/abc125/c/main.py)
-- セグメント木*DP: [typical90 037](typical90/037_DontLeaveTheSpice.py)
+- セグメント木\*DP: [typical90 037](typical90/037_DontLeaveTheSpice.py)
 
 #### [遅延評価セグメント木(lazy segment tree)](Library/SegmentTree/LazySegmentTree.py)
 
@@ -118,6 +118,7 @@
 
 - [typical90 034](typical90/034_ThereAreFewTypesOfElements.py)
 - [typical90 076](typical90/076_CakeCut.py)
+- [ABC 229 D](ABC/abc229/d/main.py)
 
 ### 区間の階差
 
