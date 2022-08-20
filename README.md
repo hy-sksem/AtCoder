@@ -14,6 +14,7 @@
 
 - [typical90 063](typical90/063_MonochromaticSubgrid.py)
 - [typical90 086](typical90/086_SnukesFavoriteArrays.py)
+- [ABC 221 C](ABC/abc221/c/main.py)
 
 ### バックトラック
 
