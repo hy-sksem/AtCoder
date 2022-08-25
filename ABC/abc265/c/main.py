@@ -7,14 +7,9 @@ h = set()
 p = (0, 0)
 
 
-def moved(i, j):
+def can_move(i, j):
     _i, _j = copy(p)
     return 0 <= (i + _i) <= H - 1 and 0 <= (j + _j) <= W - 1
-
-
-def ans(i, j):
-    print(i + 1, j + 1)
-    exit()
 
 
 while True:
@@ -27,8 +22,9 @@ while True:
         tmp = (0, -1)
     elif grid[i][j] == "R":
         tmp = (0, 1)
-    if not moved(*tmp):
-        ans(i, j)
+    if not can_move(*tmp):
+        print(i + 1, j + 1)
+        exit()
     p = (i + tmp[0], j + tmp[1])
     if p in h:
         print(-1)
