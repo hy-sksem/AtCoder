@@ -21,4 +21,4 @@ for i, j, k in c:
     degree = vec(p[i], p[j], p[k])
     cnt += degree
 
-print("Yes" if int(cnt) == 360 or int(cnt) == 359 else "No")
+print("Yes" if round(cnt) == 360 else "No")
