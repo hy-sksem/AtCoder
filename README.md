@@ -24,6 +24,7 @@
 ## [動的計画法](Library/DP/README.md)
 
 - [typical90 050](typical90/050_StairJump.py)
+- [ABC/abc266/d/main.py](ABC/abc266/d/main.py
 
 - 1 次元 DP: [typical90 042](typical90/042_MultipleOf9.py)
 - 循環してる DP: [ABC 251 e](ABC/abc251/e/main.py)
