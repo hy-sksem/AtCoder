@@ -68,6 +68,7 @@
 - [ABC 231 D](ABC/abc231/d/main.py)
 - [ABC 259 D](ABC/abc259/d/main.py)
 - [ABC 264 E](ABC/abc264/e/main.py)
+- [AOJ/DSL_1_A.py](AOJ/DSL_1_A.py)
 
 #### WeightedUnionFind
 
