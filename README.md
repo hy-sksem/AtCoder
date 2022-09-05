@@ -31,6 +31,10 @@
 - DP 復元: [typical90 056](typical90/056_LuckyBag.py)
 - 木 DP: [typical90 073](typical90/073_WeNeedBothAnB.py)
 
+### ナップザック DP
+
+- [AOJ/ALDS1_10_A.py](AOJ/ALDS1_10_A.py)
+
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
