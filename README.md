@@ -33,6 +33,7 @@
 
 ### ナップザック DP
 
+- 配る DP:[algo-method/308.py](algo-method/308.py)
 - [AOJ/ALDS1_10_A.py](AOJ/ALDS1_10_A.py)
 
 ## いもす法
