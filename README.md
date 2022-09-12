@@ -36,6 +36,10 @@
 - 配る DP:[algo-method/308.py](algo-method/308.py)
 - [AOJ/ALDS1_10_A.py](AOJ/ALDS1_10_A.py)
 
+#### 部分和問題
+
+- [algo-method/KnapsackDP/309.py](algo-method/KnapsackDP/309.py)
+
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
