@@ -35,6 +35,7 @@
 
 - 配る DP:[algo-method/308.py](algo-method/308.py)
 - [AOJ/ALDS1_10_A.py](AOJ/ALDS1_10_A.py)
+- [AOJ/DPL_1_B.py](AOJ/DPL_1_B.py)
 
 #### 部分和問題
 
