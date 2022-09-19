@@ -35,6 +35,7 @@
 
 - 配る DP:[algo-method/308.py](algo-method/308.py)
 - [AOJ/ALDS1_10_A.py](AOJ/ALDS1_10_A.py)
+- [AOJ/DPL_1_A.py](AOJ/DPL_1_A.py)
 - [AOJ/DPL_1_B.py](AOJ/DPL_1_B.py)
 - [AOJ/DPL_1_C.py](AOJ/DPL_1_C.py)
 - 最長共通部分列[AOJ/ALDS1_10_C.py](AOJ/ALDS1_10_C.py)
