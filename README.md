@@ -43,6 +43,7 @@
 #### 部分和問題
 
 - [algo-method/KnapsackDP/309.py](algo-method/KnapsackDP/309.py)
+- 最小個数部分和問題：[algo-method/KnapsackDP/311.py](algo-method/KnapsackDP/311.py)
 
 ## いもす法
 
