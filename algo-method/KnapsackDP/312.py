@@ -11,7 +11,7 @@ for i in range(N):
             dp[j] = min(dp[j], dp[j - a] + 1)
 print("Yes" if dp[M] <= K else "No")
 
-## 2重ループ
+# 2重ループ
 # dp = [[10**18] * (M + 1) for _ in range(N + 1)]
 # dp[0][0] = 0
 
