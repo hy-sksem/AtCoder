@@ -39,11 +39,13 @@
 - [AOJ/DPL_1_B.py](AOJ/DPL_1_B.py)
 - [AOJ/DPL_1_C.py](AOJ/DPL_1_C.py)
 - 最長共通部分列[AOJ/ALDS1_10_C.py](AOJ/ALDS1_10_C.py)
+- 最長共通部分列[algo-method/KnapsackDP/314.py](algo-method/KnapsackDP/314.py)
 
 #### 部分和問題
 
 - [algo-method/KnapsackDP/309.py](algo-method/KnapsackDP/309.py)
 - 最小個数部分和問題：[algo-method/KnapsackDP/311.py](algo-method/KnapsackDP/311.py)
+- K 個以内部分和問題[algo-method/KnapsackDP/312.py](algo-method/KnapsackDP/312.py)
 
 ## いもす法
 
