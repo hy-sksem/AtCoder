@@ -112,6 +112,14 @@
 
 ### [SortedMultiSet（多重集合版）](Library/SortedSet/SortedMulitiset.py)
 
+## 累積和
+
+| 項目           | link                                                |
+| -------------- | --------------------------------------------------- |
+| 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
+| 二次元累積和   | [typical90 081](typical90/081_FriendlyGroup.py)     |
+| 二次元累積和   | [tessoku b08](tessoku-book/b08/main.py)     |
+
 ## 整数系
 
 ### [素数判定、約数全列挙、素因数分解 etc.](Library/Math/README.md)
@@ -121,8 +129,6 @@
 | 9 の倍数の性質 | [typical90 042](typical90/042_MultipleOf9.py)       |
 | 繰り返し二乗法 | [typical90 069](typical90/069_ColorfulBlocks2.py)   |
 | 素因数分解     | [typical90 075](typical90/075_MagicForBalls.py)     |
-| 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
-| 二次元累積和   | [typical90 081](typical90/081_FriendlyGroup.py)     |
 | 約数全列挙     | [typical90 085](typical90/085_Multiplication085.py) |
 | 約数全列挙     | [ABC/abc106/b/main.py](ABC/abc106/b/main.py)        |
 | 素因数列挙     | [typical90 030](typical90/030_KFactors.py)          |
