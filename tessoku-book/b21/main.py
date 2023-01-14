@@ -1,5 +1,5 @@
 N = int(input())
-S = int(input())
+S = input()
 
 dp = [[-1] * N for _ in range(N)]
 
@@ -16,7 +16,7 @@ for length in range(2, N):
     for l in range(N - length):
         r = l + length
         if S[l] == S[r]:
-            dp[l][r] = max(dp[l][r - 1], dp[l + 1][r], dp[l + 1][r + 1] + 2)
+            dp[l][r] = max(dp[l][r - 1], dp[l + 1][r], dp[l + 1][r - 1] + 2)
         else:
             dp[l][r] = max(dp[l][r - 1], dp[l + 1][r])
 
