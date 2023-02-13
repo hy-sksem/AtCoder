@@ -47,6 +47,10 @@
 - 最小個数部分和問題：[algo-method/KnapsackDP/311.py](algo-method/KnapsackDP/311.py)
 - K 個以内部分和問題[algo-method/KnapsackDP/312.py](algo-method/KnapsackDP/312.py)
 
+### 最長増加部分列
+
+- [tessoku/b24](tessoku-book/b24/main.py)
+
 ## いもす法
 
 - [typical90 028](typical90/028_ClutteredPaper.py)
@@ -70,6 +74,15 @@
 
 - [ABC 226 C](ABC/abc226/c/main.py)
 - [ABC 277 C](ABC/abc277/c/main_bfs.py)
+
+### DFS
+
+- [tessoku a62](tessoku-book/a62/main.py)
+
+### ダイクストラ(dijkstra)
+
+- [typical90 013](typical90/013_Passing.py)
+- [tessoku a64](tessoku-book/a64/main.py)
 
 ### [強連結成分分解(SCC)](Library/Graph/README.md)
 
@@ -114,11 +127,11 @@
 
 ## 累積和
 
-| 項目           | link                                                |
-| -------------- | --------------------------------------------------- |
-| 累積和         | [ABC 255 D](ABC/abc255/d/main.py)                   |
-| 二次元累積和   | [typical90 081](typical90/081_FriendlyGroup.py)     |
-| 二次元累積和   | [tessoku b08](tessoku-book/b08/main.py)     |
+| 項目         | link                                            |
+| ------------ | ----------------------------------------------- |
+| 累積和       | [ABC 255 D](ABC/abc255/d/main.py)               |
+| 二次元累積和 | [typical90 081](typical90/081_FriendlyGroup.py) |
+| 二次元累積和 | [tessoku b08](tessoku-book/b08/main.py)         |
 
 ## 整数系
 
