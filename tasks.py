@@ -30,23 +30,25 @@ def testpy(c, dir):
 
 
 @task
-def sb(c, dir):
+def sb(c, dir, conf=None):
     test(c, dir)
     ct, _ = _getContest(c)
+    conf = conf if conf else ct + dir
     with c.cd(f"{dir}"):
         print(
             "cmd:",
-            cmd := f"echo {ct+dir} | acc s main.py -- --guess-python-interpreter pypy",
+            cmd := f"echo {conf} | acc s main.py -- --guess-python-interpreter pypy",
         )
         c.run(cmd)
 
 
 @task
-def sbpy(c, dir):
+def sbpy(c, dir, conf=None):
     testpy(c, dir)
     ct, _ = _getContest(c)
+    conf = conf if conf else ct + dir
     with c.cd(f"{dir}"):
-        print("cmd:", cmd := f"echo {ct+dir} | acc s")
+        print("cmd:", cmd := f"echo {conf} | acc s")
         c.run(cmd)
 
 
