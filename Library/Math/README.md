@@ -20,7 +20,8 @@
     計算量: O(NloglogN)
 
    ```python
-   def Eratosthenes(N:int) -> list[bool]:
+   from typing import List
+   def Eratosthenes(N:int) -> List[bool]:
        isprime = [True] * (N+1)
        isprime[0], isprime[1] = False, False
 
@@ -62,19 +63,14 @@
    # N の約数をすべて求める関数
    def calc_divisors(N) -> List[int]:
        res = []
-
        for i in range(1, N + 1):
            if i * i > N:
                break
-
            if N % i != 0:
                continue
-
            res.append(i)
-
            if N // i != i:
                res.append(N // i)
-
        res.sort()
        return res
    ```
