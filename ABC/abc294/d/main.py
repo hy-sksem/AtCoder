@@ -151,15 +151,15 @@ class SortedSet(Generic[T]):
 
 N, Q = map(int, input().split())
 
-called_list = SortedSet(range(1, N + 1))
+called = SortedSet(range(1, N + 1))
 ans = []
 for _ in range(Q):
     (*query,) = map(int, input().split())
     if query[0] == 1:
         continue
     elif query[0] == 2:
-        called_list.discard(query[1])
+        called.discard(query[1])
     elif query[0] == 3:
-        _min_num = called_list.gt(0)
+        _min_num = called.gt(0)
         ans.append(_min_num)
 print(*ans, sep="\n")

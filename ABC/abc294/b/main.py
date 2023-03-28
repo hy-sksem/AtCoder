@@ -8,7 +8,7 @@ for i in range(H):
         if A[i][j] == 0:
             row += "."
         else:
-            row += chr(A[i][j] + ord("a") - 1).upper()
+            row += chr(A[i][j] + ord("A") - 1)
     ans.append(row)
 
 print(*ans, sep="\n")
